@@ -1,6 +1,6 @@
 require 'package'                                                 # include package class file
  
-class Vim < Package                                               # name the package and make it a Package class instance
+class Htop < Package                                               # name the package and make it a Package class instance
   version '1.0.2'                                                   # software version
   source_url 'http://downloads.sourceforge.net/project/htop/htop/1.0.2/htop-1.0.2.tar.gz?r=&ts=1380451135&use_mirror=surfnet'     # software source tarball url
   source_sha1 '07893b93fe8109610f8e9976b3934ae4bb7a925d'          # source tarball sha1 sum
